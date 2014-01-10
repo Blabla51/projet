@@ -131,15 +131,15 @@ void loop() {
         // display tab-separated accel/gyro x/y/z values
         if(ax>800 || ax <-800)
         {
-          Serial.println("Tu as bouge sur X, connard");
+          Serial.println("Tu as bouge sur X");
         }
         else if(ay>800 || ay<-800)
         {
-          Serial.println("Tu as bouge sur Y, bastard");
+          Serial.println("Tu as bouge sur Y");
         }
         else if(az> 2800 || az < -2800)
         {
-          Serial.println("Tu as bouge sur Z, encule");
+          Serial.println("Tu as bouge sur Z");
         }
     #endif
 
